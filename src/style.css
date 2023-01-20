@@ -1,0 +1,35 @@
+html, body{
+    background-color: seagreen;
+}
+
+#cotacao-dolar{
+    background-image: url('../img/background-image.png');
+    margin-left: 35%;
+    text-align: center;
+    width: 30em;
+    height: 30em;
+    border-radius: 0.9em;
+    font-size: 0.9em;
+    border-radius: 0.5em;
+    border-style:solid;
+    
+}
+
+#content-dolar{
+    background-color: aquamarine;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 0.4em;   
+}
+#date{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 0.4em;  
+    margin-top: 15em; 
+}
+
+#bt-mostrar{
+    cursor: pointer;
+}

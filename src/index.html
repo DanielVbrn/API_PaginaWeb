@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../icon/icone-dolar.png" type="image/x-icon">
+    <title>Cotação do Dólar</title>
+    <script src="teste.js"></script>
+</head>
+<body>
+    <div id='cotacao-dolar'>
+        <h1>Moeda Americana</h1>
+        <a href="teste.js" onclick="mostrarCotacao()"></a>
+        <a href="javascript:void(0)" onclick="closeValue()"></a>
+        <div id="content-dolar">
+            <h3>Valor Dolar</h3>
+            
+            <div id="bt-valor-dolar" >
+                <button id ='bt-mostrar' onclick="mostrarCotacao()">
+                    Mostrar
+                </button>
+            </div>
+            <button id ='bt-mostrar' onclick="Fechar()">Fechar</button>
+            
+        </div>
+        <div id="date">
+            <h3>Última atualização da cotação do dólar</h3>
+            <div id="date-last-cotacao" ">
+               
+            </div>
+            
+        </div>
+        <!-- <div id ='value-dlr' onclick="showValue()">valor</div>
+        <button id ='value-dlr' onclick="closeValue()">fechar</button> -->
+        
+    </div>
+    
+</body>
+</html>
